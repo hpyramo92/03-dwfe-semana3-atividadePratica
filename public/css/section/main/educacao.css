@@ -1,0 +1,35 @@
+#educacao h2 {
+	margin: .2rem;
+	font-style: italic;
+	text-align: center;
+}
+
+.educacaoIndividual {
+	margin: 0 0 .3rem .2rem;
+}
+
+.educacaoIndividual div {
+	/* border: .3rem solid black; */
+	display: flex;
+}
+
+.nivelEducacaoIndividual {
+	/* border: .3rem solid yellow; */
+	max-width: 80%;
+}
+
+.periodoEducacaoIndividual {
+	/* border: .3rem solid blue; */
+	max-width: 20%;
+	text-align: end;
+}
+
+.dotted {
+	border: .1rem dotted black;
+	flex-grow: 1;
+	align-self: center;
+}
+
+.educacaoIndividual p {
+	font-size: .8rem;
+}

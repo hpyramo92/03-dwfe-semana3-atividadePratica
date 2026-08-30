@@ -1,0 +1,9 @@
+@import url(./nav.css);
+@import url(./main/main.css);
+
+section {
+	/* border: .5rem solid yellow; */
+	display: flex;
+	max-width: 100%;
+	padding: .5rem;
+}

@@ -1,0 +1,55 @@
+#experienciaProfissional {
+	margin-bottom: 3rem;
+}
+
+#experienciaProfissional h2 {
+	margin: .2rem;
+	font-style: italic;
+	text-align: center;
+}
+
+.experienciaIndividual {
+	/* border: .2rem solid blue; */
+	margin: 1rem;
+	border-bottom: .1rem solid black;
+}
+
+.cabecalhoExperienciaIndividual {
+	/* border: .2rem solid red; */
+	display: flex;
+	width: 100%;
+	max-width: 100%;
+}
+
+.empresaExperienciaIndividual {
+	/* border: .1rem solid black; */
+	font-size: 1rem;
+}
+
+.periodoExperienciaIndividual {
+	/* border: .1rem solid yellow; */
+	font-style: italic;
+	font-size: .6rem;
+	display: flex;
+	align-items: start;
+	align-content: start;
+}
+
+.dotted {
+	/* border: .1rem dotted black; */
+	flex-grow: 1;
+	align-self: center;
+}
+
+.cargoExperienciaIndividual {
+	/* border: .1rem solid green; */
+}
+
+#tituloEducacao {
+	margin: .2rem;
+	font-style: italic;
+}
+
+.descricaoExperienciaIndividual {
+	font-size: .7rem;
+}

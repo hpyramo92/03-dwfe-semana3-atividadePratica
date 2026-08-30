@@ -1,0 +1,53 @@
+header {
+	/* border: .5rem solid red; */
+	height: 10rem;
+	display: flex;
+	padding: .5rem;
+	align-items: center;
+	align-content: center;
+	background-color: #252323;
+	color: #eee;
+}
+
+#foto {
+	/* border: .5rem solid yellow; */
+	max-width: 18%;
+	height: 100%;
+	aspect-ratio: 1.3/2;
+	object-fit: cover;
+
+	/* width: 25%; */
+	padding: .5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.infoPessoais {
+	/* border: .5rem solid orange; */
+	width: 75%;
+}
+
+h1#nome {
+	/* border: .5rem solid orange; */
+	width: 100%;
+	margin-left: .5rem;
+}
+
+h3#profissao {
+	width: 10rem;
+	margin-left: .5rem;
+}
+
+#info {
+	/* border: .5rem solid green; */
+	color: gray;
+	display: flex;
+	margin-top: .2rem;
+	font-size: .8rem;
+}
+
+.endereco {
+	margin: 0 .5rem;
+}
